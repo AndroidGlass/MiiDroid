@@ -1,4 +1,4 @@
 dependencies:
   pre:
-    - android list sdk --all
+    - - echo y | android update sdk --no-ui --all --filter "tools,platform-tools,build-tools-23.0.2"
     
