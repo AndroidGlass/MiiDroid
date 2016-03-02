@@ -1,3 +1,14 @@
 dependencies:
   pre:
     - echo y | android update sdk --no-ui --all --filter "extra-android-m2repository,extra-android-support"
+    - sudo gem install shenzhen
+test:
+  override:
+    - ./scripts/add-key.sh
+    - ipa build -c Distribution
+    - ./scripts/remove-key.sh
+deployment:
+  hockey:
+    branch: master
+    commands:
+      - ipa distribute:hockeyapp -m "circleci build" --token $HOCKEYAPP_TOKEN
