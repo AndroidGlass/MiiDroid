@@ -6,4 +6,5 @@ deployment:
   hockey:
     branch: master
     commands:
+      - gradlew assembleDebug
       - source scripts/deployHockeyApp.sh && uploadToHockeyApp

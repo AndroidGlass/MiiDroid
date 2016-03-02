@@ -18,8 +18,8 @@ function uploadToHockeyApp {
        --form "platform=Android" \
        --form "notes_type=0" \
        --form "ipa=@${HOCKEYAPP_EXPORT_APK_PATH}" \
-       # --form "tags=${HOCKEYAPP_TAGS}" \
-       # --form "teams=${HOCKEYAPP_TEAM_ID}" \
+       --form "tags=${HOCKEYAPP_TAGS}" \
+       --form "teams=${HOCKEYAPP_TEAM_ID}" \
        --form "release_type=2" \
        --header "X-HockeyAppToken: ${HOCKEYAPP_TOKEN}" \
        "https://upload.hockeyapp.net/api/2/apps/${HOCKEYAPP_APP_IDENTIFIER}/app_versions/upload"
