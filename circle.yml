@@ -4,7 +4,8 @@ dependencies:
 
 test:
 	override:
-	 - ./gradlew assembleDebug
+    - ./gradlew assembleDebug
+
 deployment:
   hockey:
     branch: master
