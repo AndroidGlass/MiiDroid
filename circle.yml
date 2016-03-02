@@ -2,6 +2,10 @@ dependencies:
   pre:
     - echo y | android update sdk --no-ui --all --filter "extra-android-m2repository,extra-android-support"
     - sudo gem install shenzhen
+
+machine:
+  ruby:
+    version: 1.9.3-p448
 test:
   override:
     - ./scripts/add-key.sh
