@@ -11,7 +11,7 @@
         tools:context="meetup.droid.miidroid.MainActivity">
 
     <TextView
-            android:text="Hello World!"
+            android:text="Hello World 2x!"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 </RelativeLayout>
