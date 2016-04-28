@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 function uploadToHockeyApp {
 
   GIT_COMPARE_KEY=${CIRCLE_COMPARE_URL##*/}
