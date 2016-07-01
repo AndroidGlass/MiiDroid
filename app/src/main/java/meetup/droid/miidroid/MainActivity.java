@@ -8,6 +8,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import meetup.droid.miidroid.menu.MenuActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     private static final String EXPECTED_USERNAME = "userOne";
