@@ -15,7 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".menu.MenuActivity"></activity>
+        <activity android:name=".menu.MenuActivity" />
+        <activity android:name=".lifecycle.LifecycleDemoActivity"></activity>
     </application>
 
 </manifest>
