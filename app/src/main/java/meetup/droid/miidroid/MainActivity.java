@@ -38,6 +38,11 @@ public class MainActivity extends AppCompatActivity {
          */
         mEtUsername = (EditText) findViewById(R.id.et_username);
         mEtPassword = (EditText) findViewById(R.id.et_password);
+
+        //TODO remove
+        mEtUsername.setText(EXPECTED_USERNAME);
+        mEtPassword.setText(EXPECTED_PASSWORD);
+
         mBtnLogin = (Button) findViewById(R.id.btn_login);
         mTvErrorMessage = (TextView) findViewById(R.id.tv_error);
 

@@ -7,6 +7,7 @@ import android.support.v7.widget.RecyclerView;
 import android.widget.LinearLayout;
 
 import meetup.droid.miidroid.R;
+import meetup.droid.miidroid.implicit.intents.CameraIntentActivity;
 import meetup.droid.miidroid.lifecycle.LifecycleDemoActivity;
 
 /**
@@ -16,7 +17,8 @@ public class MenuActivity extends AppCompatActivity {
 
     private static MenuItem[] menuItems = new MenuItem[] {
             //todo create a class to start
-            new MenuItem(LifecycleDemoActivity.class, "Lifecycle Demo")
+            new MenuItem(LifecycleDemoActivity.class, "Lifecycle Demo"),
+            new MenuItem(CameraIntentActivity.class, "Camera Intent Demo")
     };
 
     @Override

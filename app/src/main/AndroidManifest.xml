@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".menu.MenuActivity" />
-        <activity android:name=".lifecycle.LifecycleDemoActivity"></activity>
+        <activity android:name=".lifecycle.LifecycleDemoActivity" />
+        <activity android:name=".implicit.intents.CameraIntentActivity"></activity>
     </application>
 
 </manifest>
