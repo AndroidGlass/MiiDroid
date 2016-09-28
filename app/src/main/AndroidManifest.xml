@@ -17,7 +17,11 @@
         </activity>
         <activity android:name=".menu.MenuActivity" />
         <activity android:name=".lifecycle.LifecycleDemoActivity" />
-        <activity android:name=".implicit.intents.CameraIntentActivity"></activity>
+        <activity android:name=".implicit.intents.CameraIntentActivity" />
+
+        <service android:name=".service.MyIntentService" />
+
+        <activity android:name=".service.MyServiceActivity"></activity>
     </application>
 
 </manifest>
