@@ -9,6 +9,7 @@ import android.widget.LinearLayout;
 import meetup.droid.miidroid.R;
 import meetup.droid.miidroid.implicit.intents.CameraIntentActivity;
 import meetup.droid.miidroid.lifecycle.LifecycleDemoActivity;
+import meetup.droid.miidroid.media.player.MediaPlayerActivity;
 import meetup.droid.miidroid.service.MyServiceActivity;
 
 /**
@@ -20,7 +21,8 @@ public class MenuActivity extends AppCompatActivity {
             //todo create a class to start
             new MenuItem(LifecycleDemoActivity.class, "Lifecycle Demo"),
             new MenuItem(CameraIntentActivity.class, "Camera Intent Demo"),
-            new MenuItem(MyServiceActivity.class, "Service Demo")
+            new MenuItem(MyServiceActivity.class, "Service Demo"),
+            new MenuItem(MediaPlayerActivity.class, "Media Player Demo")
     };
 
     @Override
